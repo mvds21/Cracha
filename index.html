@@ -63,22 +63,7 @@
       </div>
     </main>
 
-    <script>
-      const LinksSocialMedia = {
-        github: 'mvds21',
-        youtube: 'channel/UCRD7Yk7AeOFCal3uYfTiV9A',
-        facebook: 'profile.php?id=100005748905204',
-        instagram: 'marcosindo',
-        twitter: '@marcosv40611174',
-      }
-
-      function changeSocialMediaLinks() {
-        for (let li of socialLinks.children) {
-          const social = li.getAttribute('class')
-
-          li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
-
-          alert(li.children[0].href)
+   
         }
       }
 
